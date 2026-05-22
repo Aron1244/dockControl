@@ -1,7 +1,9 @@
-# Tauri + React + Typescript
+# DockControl
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+App desktop con Tauri + React + Vite para levantar y cerrar Docker Desktop y un stack de Docker Compose desde una UI simple.
 
-## Recommended IDE Setup
+## Uso esperado
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+1. Pega la ruta de `Docker Desktop.exe`.
+2. Pega la carpeta donde vive tu `docker-compose.yml`.
+3. Usa `Levantar stack` o `Cerrar stack`.
